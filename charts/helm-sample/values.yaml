@@ -30,6 +30,10 @@ env:
   SERVER: XYZ
   PORT: 345
 
+db:
+  username: Test
+  password: testpwd1234 
+
 podSecurityContext: {}
   # fsGroup: 2000
 

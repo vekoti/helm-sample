@@ -38,6 +38,16 @@ spec:
             - name: {{ $key }}
               value: "{{ $value }}"
           {{- end }}
+            - name: USERNAME
+              valueFrom:
+                secretKeyRef:
+                  key: username
+                  name: sample-secret
+            - name: PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  key: password
+                  name: sample-secret
           ports:
             - name: http
               containerPort: 80
