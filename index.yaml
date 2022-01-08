@@ -3,12 +3,12 @@ entries:
   helm-sample:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-22T15:21:11.942763-05:00"
+    created: "2022-01-08T16:56:12.781963-05:00"
     description: A Helm chart for Kubernetes
-    digest: cf4fe0bd0fa2feb18c0d5360bd86d22b994b3bfbb65d618098c11b608a9088bf
+    digest: 52f41a741effd530ffc9b8abe1edb048d421557ea0989ccd738fcee0f64d4d5e
     name: helm-sample
     type: application
     urls:
-    - https://vekoti.github.io/helm-sample/helm-sample-0.1.0.tgz
+    - https://vekoti.github.io/helm-app/helm-sample-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-22T15:21:11.941721-05:00"
+generated: "2022-01-08T16:56:12.780847-05:00"
